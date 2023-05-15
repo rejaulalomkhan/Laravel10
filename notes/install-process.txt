@@ -1,0 +1,8 @@
+# How I install Laravel Apllication
+
+1. Install PHP. I have already istall xampp. So, that I have a php.exe file
+2. Install Composer
+3. Install Node.js
+4. Globally install the Laravel installer via Composer
+5. Then create laravel project via "laravel new my-app" command
+6. After the project has been created, go to my-app via "cd my-app" command and serve the project via "php artisan serve"

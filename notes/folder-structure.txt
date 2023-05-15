@@ -1,0 +1,19 @@
+1. app: This folder contains the core application code. It includes subfolders such as Console for artisan commands, Http for controllers and middleware, Models for data models, and Providers for service providers.
+
+2. bootstrap: It contains the files required to bootstrap the Laravel framework, including the app.php file that initializes the application.
+
+3. config: Configuration files for various aspects of the application, such as database settings, application settings, and service providers.
+
+4. database: It includes database-related files such as migrations (to create and modify database tables), seeders (to populate the database with test data), and a factories folder for defining model factories.
+
+5. public: The publicly accessible folder that contains the entry point (index.php) for your application. Static assets like CSS, JavaScript, and image files are typically stored here.
+
+6. resources: It holds the non-PHP resources, including views, language files, and assets. The views folder contains the Blade templates used to generate HTML output.
+
+7. routes: The route definitions for your application are stored here. The web.php file defines web routes, while the api.php file is used for API routes.
+
+8. storage: This folder stores application-generated files such as logs, cached views, session files, and uploaded files. It includes subfolders like app (for application-specific files) and framework (for framework-generated files).
+
+9. tests: The location for your application's tests. Laravel encourages writing tests to ensure code quality and maintainability.
+
+10. vendor: It contains the dependencies installed via Composer, including Laravel itself and any additional packages.
